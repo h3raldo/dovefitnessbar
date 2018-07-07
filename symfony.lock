@@ -1,4 +1,7 @@
 {
+    "container-interop/container-interop": {
+        "version": "1.2.0"
+    },
     "doctrine/annotations": {
         "version": "1.0",
         "recipe": {
@@ -71,11 +74,23 @@
     "fig/link-util": {
         "version": "1.0.0"
     },
+    "guzzlehttp/guzzle": {
+        "version": "6.3.3"
+    },
+    "guzzlehttp/promises": {
+        "version": "v1.3.1"
+    },
+    "guzzlehttp/psr7": {
+        "version": "1.4.2"
+    },
     "jdorn/sql-formatter": {
         "version": "v1.2.17"
     },
     "monolog/monolog": {
         "version": "1.23.0"
+    },
+    "nikic/fast-route": {
+        "version": "v1.3.0"
     },
     "nikic/php-parser": {
         "version": "v4.0.2"
@@ -92,11 +107,20 @@
     "phpdocumentor/type-resolver": {
         "version": "0.4.0"
     },
+    "pimple/pimple": {
+        "version": "v3.2.3"
+    },
+    "prismic/php-sdk": {
+        "version": "4.0.0-beta"
+    },
     "psr/cache": {
         "version": "1.0.1"
     },
     "psr/container": {
         "version": "1.0.0"
+    },
+    "psr/http-message": {
+        "version": "1.0.1"
     },
     "psr/link": {
         "version": "1.0.0"
@@ -115,6 +139,9 @@
             "version": "4.0",
             "ref": "aaddfdf43cdecd4cf91f992052d76c2cadc04543"
         }
+    },
+    "slim/slim": {
+        "version": "3.10.0"
     },
     "swiftmailer/swiftmailer": {
         "version": "v6.1.1"

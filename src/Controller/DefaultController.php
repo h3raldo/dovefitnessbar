@@ -8,8 +8,11 @@ use Symfony\Component\Routing\Annotation\Route;
 class DefaultController
 {
 	/**
-      * @Route("/", name="home")
-      */
+	 * @Route("/", name="home")
+	 *
+	 * @return Response
+	 * @throws \Exception
+	 */
     public function index()
     {
         $number = random_int(0, 100);
@@ -19,9 +22,12 @@ class DefaultController
         );
     }
 
-    /**
-      * @Route("/{slug}", name="page")
-      */
+	/**
+	 * @Route("/{slug}", name="page")
+	 *
+	 * @param $slug
+	 * @return Response
+	 */
     public function page( $slug )
 	{
 		return new Response(

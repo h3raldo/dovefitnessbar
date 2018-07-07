@@ -22,7 +22,9 @@
         "symfony/validator": "^4.1",
         "symfony/web-link": "^4.1",
         "symfony/webpack-encore-pack": "*",
-        "symfony/yaml": "^4.1"
+        "symfony/yaml": "^4.1",
+        "slim/slim": "3.*",
+        "prismic/php-sdk": "4.0.0-beta"
     },
     "require-dev": {
         "symfony/debug-pack": "*",
