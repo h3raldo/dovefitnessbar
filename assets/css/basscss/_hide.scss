@@ -1,0 +1,25 @@
+.hide {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+@include breakpoint(xs){
+  .xs-hide { display: none !important }
+}
+
+@include breakpoint(sm-md) {
+  .sm-hide { display: none !important }
+}
+
+@include breakpoint(md-lg) {
+  .md-hide { display: none !important }
+}
+
+@include breakpoint(lg) {
+  .lg-hide { display: none !important }
+}
+
+.display-none { display: none !important }

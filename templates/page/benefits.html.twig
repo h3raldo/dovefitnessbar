@@ -1,0 +1,123 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} {{ meta_title }} {% endblock %}
+
+{% block header_class %}benefits{% endblock %}
+
+{% block header_content %}
+	<h1>Dove Fitness Bar</h1>
+	<h2>Benefits</h2>
+
+	<p>The Dove Fitness Bar helps to correct muscle imbalances to improve mobility and stability.</p>
+
+	<a class="btn btn-buy" href="/buy.html">Preorder Now</a>
+{% endblock %}
+
+{% block body %}
+
+	<section class="bg-gray">
+		<div class="content" data-aos="zoom-in">
+
+			<div class="clearfix mxn2 flex">
+
+				<div class="sm-col-9 px2 mx-auto">
+
+					<h2>Start on <br> The Right Foot</h2>
+					<hr>
+					<p class="lead">To get started on the right foot is to have your body to move with proper alignment. When your body is in proper alignment it will help reduce injuries and allow people to get to their goal safely and perform at a higher level.</p>
+
+					<!--<div class="sm-col-5 right sm-ml2"><img src="https://dove.heraldo.io/wp-content/uploads/2018/06/gymshoot_19.jpg"/></div>-->
+
+					<p class="xs-fullsize" data-aos="flip-right"><img src="https://dovefitnessbar.s3.amazonaws.com/images/o/dove-fitness-bar-balance-one-leg.jpg"/></p>
+
+
+					<p>It is important to understand the the body is a chain. It is made up of the muscular system, nervous system, and skeletal system that creates movement. When any of the links are not functioning correctly, it affects how the other components perform. </p>
+
+					<p>Many people suffer from muscle imbalances due to repetitive activities, lack of daily movement or overuse. Muscle imbalances occur when some muscles become short and tight, while others become long and weak.</p>
+
+					<p class="center"><b>Imbalances are created when muscles surrounding a joint change in length and one muscle may become tight and its opposite muscle becomes long and weak.</b></p>
+				</div>
+
+				<!--<div class="sm-col sm-col-5 px2 bg-cover" style="background-image:url(https://dove.heraldo.io/wp-content/uploads/2018/06/gymshoot_19.jpg)">-->
+				<!--</div>-->
+
+			</div>
+
+		</div>
+	</section>
+
+	<section class="">
+		<div class="content">
+
+			<div class="clearfix mxn2">
+
+				<div class="sm-col-6 px2 mx-auto center" data-aos="zoom-in">
+					<h1>Key Benefits</h1>
+					<p class="lead">The Dove Fitness Bar will assist athletic and everyday people with their mobility and stability throughout their day and life. </p>
+				</div>
+
+			</div>
+
+			<hr class="center my4">
+
+			<div class="clearfix mxn2">
+				<div class="sm-col sm-col-4 px2" data-aos="flip-right">
+					<h3><i class="fa fa-check-circle"></i> Corrects Imbalances</h3>
+					<p>Corrects muscle imbalance caused by lack of movement and prolonged sitting.</p>
+				</div>
+				<div class="sm-col sm-col-4 px2" data-aos="flip-right">
+					<h3><i class="fa fa-dumbbell"></i> Versatile</h3>
+					<p>Can be used with other workout equipment , boot camps, aerobic exercise, and in performance enhancement arenas.</p>
+				</div>
+				<div class="sm-col sm-col-4 px2" data-aos="flip-right">
+					<h3><i class="fa fa-user-friends"></i> For everyone</h3>
+					<p>Designed for all ages, available in any color and comes in three sizes. (40 in, 48 in, and 60 inches).</p>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<section class="notice notice-long">
+		<div class="content">
+			<p class="mb2 center"><i class="fa fa-info-circle fa-2x"></i></p>
+			<p class="h1">A person's mobility is the combination of <br> joint range of motion and proper muscle elasticity. </p>
+			<hr>
+			<p class="h2">Improving mobility decreases the chance of injuries.</p>
+		</div>
+	</section>
+
+	<section class="bg-gray">
+		<div class="content">
+
+			<div class="clearfix flex flex-wrap mb3">
+				<div class="col-12 sm-col-5 px3 bg-cover xs-hide" style="background-image:url(https://dovefitnessbar.s3.amazonaws.com/images/o/dove-fitness-bar-twist.jpg); background-position: bottom center;" data-aos="flip-right"></div>
+
+				<div class="col-12 sm-col-7 sm-px3">
+					<h2 data-aos="fade-right">Improve<br> Mobility</h2>
+
+					<hr>
+
+					<p class="sm-hide md-hide lg-hide xs-fullsize" data-aos="flip-right"><img src="https://dovefitnessbar.s3.amazonaws.com/images/o/dove-fitness-bar-twist.jpg" alt=""></p>
+
+					<div data-aos="zoom-in">
+						<p class="lead">Mobility allows the body to move in all ranges of motion without losing your stability.</p>
+
+						<p>The Dove Fitness Bar will give you more scapulothoracic stability and mobility in the shoulder.  This will also lead to more core strength. Then you will increase balance, strength and muscular endurance.</p>
+
+						<p><b>These three keep you secure while stretching and contracting. It also allows you to generate speed and maintain a consistent posture throughout a range of motion in any sport activity. </b></p>
+					</div>
+
+				</div>
+			</div>
+
+			<p data-aos="zoom-in">The body works in alternating pattern of stability and mobility. If this pattern is altered, dysfunction and compensation will occur. When you use the Dove Fitness Bar daily it will help decrease dysfunction and give you better movement patterns during rehab, exercise and performance sports.</p>
+
+			<a data-aos="zoom-in" class="btn btn-buy" href="/preorder-dove-fitness-bar.html">Preorder Now</a>
+
+		</div>
+	</section>
+
+	{{ include('partials/preorder.html.twig') }}
+
+{% endblock %}

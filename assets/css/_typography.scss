@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+body{
+  font: #{$font-body-size}/#{$font-body-line-height} $font-body-family;
+  font-weight: $font-body-weight;
+  color: $font-body-color;
+}
+
+h1,h2,h3,h4,h5,.h1,.h2,.h3,.h4,.h5{
+  font-family: $heading-font;
+  text-transform: uppercase;
+  color: $heading-color;
+  font-weight: 400;
+}
+
+h1,.h1{
+  font-size: 31px;
+  margin: 0;
+}
+
+h2,.h2{
+  font-size: 51px;
+  margin-bottom: 0;
+  margin-top: 0;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+h3{
+
+}
+
+h4{
+
+}
+
+h5{
+
+}
+
+.lead{
+  font-size: 22px;
+  font-weight: 400;
+  color: $heading-color;
+  margin-bottom: 25px;
+}
+
+p{
+  margin: 0 0 30px 0;
+}
+
+hr{
+  display:block;
+  background: #2f2c2f;
+  border: 0;
+  height: 3px;
+  width: 90px;
+  margin-left:0;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+hr.center{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr.right-align{
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.hr2{
+  width: 200px;
+}
+
+.hr4{
+  width: 360px
+}
+
+@include breakpoint(md){
+  .md-right-align hr{
+	margin-right: 0;
+	margin-left: auto;
+  }
+}

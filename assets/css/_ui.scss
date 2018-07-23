@@ -1,0 +1,29 @@
+
+// Buttons
+.btn{
+  text-decoration: none;
+  line-height: 1;
+  display: inline-block;
+  max-width: 100%;
+  padding: 20px 42px;
+  cursor: pointer;
+  text-align: center;
+  overflow: hidden;
+  vertical-align: top;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  border: 2px solid;
+  box-shadow: none;
+  transition: .3s;
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: 700;
+  border-radius: 30px;
+}
+.btn-buy{
+  border-color: #f4cb48;
+  background-color: #f4cb48;
+}

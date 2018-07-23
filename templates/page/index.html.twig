@@ -1,0 +1,84 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} {{ meta_title }} {% endblock %}
+
+{% block header_content %}
+	<h1>The Posture Correcting</h1>
+	<h2>Fitness Bar</h2>
+
+	<p>Made for athletic and everyday people, the Dove Fitness Bar will improve mobility and stability throughout your day and life.</p>
+
+	<a class="btn btn-buy" href="/buy.html">Preorder Now</a>
+{% endblock %}
+
+{% block body %}
+
+	<section>
+		<div class="content">
+
+			<div class="clearfix mxn3 flex flex-wrap">
+				<div class="col-12 md-col-5 px3 bg-cover xs-hide sm-hide" style="background-image:url(https://dovefitnessbar.s3.amazonaws.com/images/uo/dove-fitness-bar-corrects-posture.jpg); background-position: bottom center;"  data-aos="flip-right"></div>
+
+				<div class="col-12 md-col-7 px3">
+					<h2 data-aos="zoom-in">
+						Better<br>
+						Posture
+					</h2>
+
+					<hr>
+
+					<p class="md-hide lg-hide xs-fullsize" data-aos="flip-right"><img src="https://dovefitnessbar.s3.amazonaws.com/images/uo/dove-fitness-bar-corrects-posture.jpg" /></p>
+
+					<div data-aos="zoom-in">
+						<p class="lead">The Dove Fitness Bar is the perfect workout tool for the people who want better posture, relief from shoulder pain and injury and realignment of the shoulder blade.</p>
+
+						<p>The Bar’s patented technology gently stretches the soft tissue between the shoulders and eases muscle discomfort by placing muscles, joints, and tendons into their proper alignment so that you can function at your maximum potential, workout more efficiently, and get better results overall.</p>
+						<p>The Dove Fitness Bar has also been tested at fitness and rehab centers, with golfers, basketball players, and fitness professionals.</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<section class="notice">
+		<div class="content" data-aos="zoom-in">
+			<p class="mb2"><i class="fa fa-exclamation-circle fa-2x"></i></p>
+			<h1>Muscle imbalances <br class="md-hide lg-hide"> are caused by a </h1>
+			<h2>sedentary lifestyle and overuse</h2>
+		</div>
+	</section>
+
+	<section class="bg-gray md-right-align">
+		<div class="content" data-aos="zoom-in">
+
+			<div class="clearfix mxn3 flex flex-wrap">
+
+				<div class="sm-col md-col-7 px3">
+					<h2 data-aos="zoom-in">
+						Muscle <br>
+						Balance
+					</h2>
+
+					<hr>
+
+					<p class="md-hide lg-hide xs-fullsize" data-aos="flip-right"><img src="https://dovefitnessbar.s3.amazonaws.com/images/uo/dove-fitness-bar-women-overhead.jpg" /></p>
+
+					<div data-aos="zoom-in">
+						<p class="lead">When two muscles are at incorrect lengths and movement of a joint is limited, these balances alter the way we move.</p>
+
+						<p>The Dove Fitness Bar assists with the traction of the trapezius and scapula. By doing this it will put muscles in alignment to reduce muscle imbalances. The Dove Fitness Bar will stretch the soft tissues and muscles in a safe way to reduce joint pain. This will cause the body to move with more balance  because the core muscles are in alignment.</p>
+						<p>The Dove Fitness Bar will help with muscle and imbalances which will help reduce poor movement patterns. The Dove Fitness Bar will assist in the ability of the nervous system to properly recruit all muscles in all ranges of motion.</p>
+					</div>
+				</div>
+
+				<div class="sm-col md-col-5 px3 bg-cover xs-hide sm-hide" style="background-image:url(https://dovefitnessbar.s3.amazonaws.com/images/uo/dove-fitness-bar-women-overhead.jpg)" data-aos="flip-left"></div>
+
+			</div>
+
+		</div>
+	</section>
+
+	{{ include('partials/preorder.html.twig') }}
+
+{% endblock %}

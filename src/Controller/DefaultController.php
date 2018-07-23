@@ -2,10 +2,13 @@
 
 namespace App\Controller;
 
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
+use App\Helper\PrismicHelper;
 
-class DefaultController
+
+class DefaultController extends AbstractController
 {
 	/**
 	 * @Route("/", name="home")
@@ -15,24 +18,25 @@ class DefaultController
 	 */
     public function index()
     {
-        $number = random_int(0, 100);
+		// $helper = new PrismicHelper();
+		// $page = $helper->getPageBySlug('home');
 
-        return new Response(
-            '<html><body>Lucky number: '.$number.'</body></html>'
-        );
+		return $this->render('page/index.html.twig', array('meta_title' => 'Test'));
     }
 
 	/**
-	 * @Route("/{slug}", name="page")
+	 * @Route("/{slug}.html", name="page")
 	 *
 	 * @param $slug
 	 * @return Response
 	 */
     public function page( $slug )
 	{
-		return new Response(
-        	'<html><body>Lucky number: '.$slug.'</body></html>'
-    	);	
+		if( $slug === 'benefits' ){
+			return $this->render('page/benefits.html.twig', array('meta_title' => 'Test'));
+		}
+
+		return $this->render('page/buy.html.twig', array('meta_title' => 'Test'));
 	}
     
 }	

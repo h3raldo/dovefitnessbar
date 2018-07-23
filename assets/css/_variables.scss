@@ -1,0 +1,67 @@
+$black: #000;
+$white: #fff;
+$dark-blue: #292c33;
+$light-gray: #f1f1f1;
+
+$font-body-color: #757575;
+$font-body-size: 16px;
+$font-body-line-height: 1.59;
+$font-body-family: 'Raleway', sans-serif;
+$font-body-weight: 400;
+
+$heading-font: 'Raleway', sans-serif;
+$heading-color: #2f2c2f;
+
+$h1: 2rem;
+$h2: 1.5rem;
+$h3: 1.25rem;
+$h4: 1rem;
+$h5: .875rem;
+$h6: .75rem;
+
+$space-1: .5rem;
+$space-2: 1rem;
+$space-3: 2rem;
+$space-4: 4rem;
+
+$width-1: 24rem;
+$width-2: 32rem;
+$width-3: 48rem;
+$width-4: 64rem;
+
+$border-width: 1px;
+$border-radius: 3px;
+
+$line-height-1: 1;
+$line-height-2: 1.125;
+$line-height-3: 1.25;
+$line-height-4: 1.5;
+$caps-letter-spacing: .2em;
+$bold-font-weight: bold;;
+
+
+/*********************
+BREAKPOINTS
+*********************/
+
+@mixin breakpoint($point) {
+  @if $point == xs {
+	@media (max-width: 40em){@content;}
+  }
+  @else if $point == sm {
+	@media (min-width: 40em){@content;}
+  }
+  @else if $point == sm-md {
+	@media (min-width: 40em) and (max-width: 52em){@content;}
+  }
+  @else if $point == md {
+	@media (min-width: 52em){@content;}
+  }
+  @else if $point == md-lg {
+	@media (min-width: 52em) and (max-width: 64em){@content;}
+  }
+  @else if $point == lg {
+	@media (min-width: 64em){@content;}
+  }
+}
+

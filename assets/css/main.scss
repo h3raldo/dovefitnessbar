@@ -1,0 +1,29 @@
+// import all variables first
+@import "variables";
+
+// basscss
+@import "basscss/type-scale";
+@import "basscss/type-utilities";
+@import "basscss/layout";
+@import "basscss/align";
+@import "basscss/margin";
+@import "basscss/padding";
+@import "basscss/grid";
+@import "basscss/flexbox";
+@import "basscss/position";
+@import "basscss/border";
+@import "basscss/hide";
+@import "basscss/responsive-margin";
+@import "basscss/responsive-padding";
+@import "basscss/responsive-display";
+@import "basscss/responsive-align";
+
+// internal css
+@import "template";
+@import "typography";
+@import "colors";
+@import "sections";
+@import "ui";
+
+// aos @ 3.0.0
+@import "aos/3.0.0.min";
