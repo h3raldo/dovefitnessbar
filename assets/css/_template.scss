@@ -10,7 +10,7 @@ html,body{
 header{
   background-size: cover;
   background-position: center center;
-  background-image: url(https://dovefitnessbar.s3.amazonaws.com/images/o/with-dove-fitness-bar-back.jpg);
+  background-image: url(https://d156gn6fhhgphw.cloudfront.net/images/o/with-dove-fitness-bar-back.jpg);
   padding: 20px 10px;
   text-align: center;
   color: #fff;
@@ -20,11 +20,11 @@ header{
   }
 
   &.benefits{
-    background-image: url(https://dovefitnessbar.s3.amazonaws.com/images/o/dove-fitness-bar-with-trainer.jpg);
+    background-image: url(https://d156gn6fhhgphw.cloudfront.net/images/o/dove-fitness-bar-with-trainer.jpg);
   }
   &.buy{
-    background-image: url(https://dove.heraldo.io/wp-content/uploads/2018/07/bars-in-gym.jpg);
-    background-position: bottom center;
+    background-image: url(https://dovefitnessbar.s3.amazonaws.com/images/uo/dove-fitness-bars-in-gym.jpg);
+    background-position: center bottom;
   }
 
   .content{
